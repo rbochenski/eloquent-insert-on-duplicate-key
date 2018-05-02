@@ -14,6 +14,7 @@ If you don't use Package Auto-Discovery yet add the service provider to your Pac
 
 ```php
 InsertOnDuplicateKey\InsertOnDuplicateKeyServiceProvider::class,
+InsertOnDuplicateKey\MysqlReplaceServiceProvider::class,
 ```
 
 ## Usage
